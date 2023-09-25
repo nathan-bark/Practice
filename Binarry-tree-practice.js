@@ -148,6 +148,7 @@ tree.insert(99);
 tree.insert(15);
 tree.insert(1);
 tree.insert(11)
-tree.remove(16);
+tree.insert(0)
+tree.remove(1);
 
 
