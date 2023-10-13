@@ -41,3 +41,14 @@ import { mergeSort, merge } from "./merge-sort";
         const sortedArray = mergeSort(array);
         expect(sortedArray).toEqual([1,2,3,4])
       })
+
+describe('mergeSort', () => {
+    // Returns a sorted array when given an unsorted array
+    it('should return a sorted array when given an unsorted array', () => {
+        const array = [5, 2, 8, 3, 1];
+        const sortedArray = mergeSort(array);
+        expect(sortedArray).toEqual([1, 2, 3, 5, 8]);
+    });
+
+
+});
